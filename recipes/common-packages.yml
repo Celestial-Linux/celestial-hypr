@@ -1,0 +1,67 @@
+type: rpm-ostree
+repos:
+  - wezterm.repo
+install:
+# environment
+  - power-profiles-daemon
+  - xorg-x11-server-Xwayland
+  - polkit
+  - polkit-kde
+  - xdg-user-dirs
+  - dbus-tools
+  - dbus-daemon
+  - wl-clipboard
+  - pavucontrol
+  - playerctl
+  - qt5-qtwayland
+  - qt6-qtwayland
+  - vulkan-validation-layers
+  - vulkan-tools
+  - google-noto-emoji-fonts
+  - gnome-disk-utility
+  - ddcutil
+  
+# sound
+  - wireplumber
+  - pipewire
+  - pamixer
+  - pipewire-pulseaudio
+
+# networking
+  - network-manager-applet
+  - NetworkManager-openvpn
+  - NetworkManager-openconnect
+  - bluez
+  - bluez-tools
+
+# file manager
+  - dolphin
+  - xarchiver
+  - imv
+  - p7zip
+  - unrar
+  - gvfs-mtp
+  - gvfs-gphoto2
+  - gvfs-smb
+  - gvfs-nfs
+  - gvfs-fuse
+  - gvfs-archive
+  - android-tools
+
+# display
+  - brightnessctl
+
+# terminal
+  - wezterm
+
+# theme and GUI
+  - adwaita-qt5
+  - qt5-wayland
+  - qt6-wayland
+  - fontawesome-fonts-all
+  - gnome-themes-extra
+  - gnome-icon-theme
+  - paper-icon-theme
+  - breeze-icon-theme 
+  - papirus-icon-theme
+  - cliphist

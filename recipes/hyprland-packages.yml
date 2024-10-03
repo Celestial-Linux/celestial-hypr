@@ -1,0 +1,12 @@
+type: rpm-ostree
+install:
+  - hyprland
+  - hyprland-devel
+  - xdg-desktop-portal-hyprland
+  - hyprpaper
+  - hyprpicker
+  - hypridle
+  - hyprlock
+  - hyprshot
+  - aylurs-gtk-shell
+  - hyprland-autoname-workspaces
