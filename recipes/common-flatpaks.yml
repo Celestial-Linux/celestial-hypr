@@ -7,5 +7,8 @@ system:
   # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
   install:
     - org.mozilla.firefox
+    - com.github.tchx84.Flatseal
+    - io.missioncenter.MissionCenter
+    - org.mozilla.Thunderbird
     # - org.gnome.Loupe
     # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
