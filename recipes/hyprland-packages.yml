@@ -1,4 +1,6 @@
 type: rpm-ostree
+repos:
+  - hyprland.repo
 install:
   - hyprland
   - hyprland-devel
@@ -10,3 +12,4 @@ install:
   - hyprshot
   - aylurs-gtk-shell
   - hyprland-autoname-workspaces
+  - cliphist

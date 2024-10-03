@@ -56,12 +56,9 @@ install:
 
 # theme and GUI
   - adwaita-qt5
-  - qt5-wayland
-  - qt6-wayland
   - fontawesome-fonts-all
   - gnome-themes-extra
   - gnome-icon-theme
   - paper-icon-theme
   - breeze-icon-theme 
   - papirus-icon-theme
-  - cliphist
